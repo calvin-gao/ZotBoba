@@ -1,0 +1,40 @@
+body {
+  background-color:#002b36;
+  color: #839496;
+}
+@media screen and (prefers-color-scheme: light) {
+  body {
+    background-color: #fdf6e3;
+    color: #657b83;
+  }
+}
+
+.all_entry{
+  display:flex; 
+  flex-wrap: wrap;
+}
+#user_entry{
+  background: #eee8d5;
+}
+
+.jumbotron{
+  color: #073642;
+  background: #fdf6e3;
+}
+
+.form-control{
+  width: 70%;
+}
+.thumbnail img{
+  width: 100%;
+}
+
+.thumbnail{
+  padding: 0;
+}
+
+.delete-form{
+  display: inline;
+}
+
+

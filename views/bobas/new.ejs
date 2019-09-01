@@ -1,0 +1,36 @@
+<% include ../partials/header%>
+
+<div class="container">
+  <div class="row">
+    <h1 style="text-align: center;">Create a New Boba</h1>
+    <div style="width: 30%; margin: 25px auto;">
+      <form action="/bobas" method ="POST">
+        <!-- <div class="form-group">
+          <input class="form-control" type="text" name = "name" placeholder = "name">
+        </div> -->
+        <div class="form-group">
+          <label for="exampleInputEmail1">Milk Tea Drink Name</label>
+          <input type="text" class="form-control" id="exampleInputEmail1" name="name" placeholder="name">
+        </div>
+        <!-- <div class="form-group">
+          <label for="exampleInputFile">File input</label>
+          <input type="file" id="exampleInputFile" name = "image">
+        </div> -->
+        <div class="form-group">
+          <input class="form-control" type="text" name = "image" placeholder = "image url">
+        </div>
+        <div class="form-group">
+            <textarea class="form-control" rows="3" cols="50" placeholder="describe drink here" name="description"></textarea>
+        </div>
+        <!-- <div class="form-group">
+          <input class="form-control" type="text" name = "description" placeholder = "description">
+        </div> -->
+        <div class="form-group">
+          <button class="btn btn-primary btn-block"> Submit! </button>
+        </div>
+      </form>
+      <a href="/bobas"> Go Back </a>
+    </div>
+  </div>
+</div>
+<% include ../partials/footer%>

@@ -1,0 +1,32 @@
+<% include ../partials/header %>
+
+<div class="container">
+  <header class="jumbotron">
+    <div class="container">
+      <h1>Welcome to ZotBoba!</h1>
+      <p> View our custom-ratings on boba drinks</p>
+      <p>
+        <a class="btn btn-primary btn-lg" href="/bobas/new"> Add New Boba Rating</a>
+      </p>
+    </div>
+  </header>
+
+
+  <div id="all_entry" class="row text-center">
+    <% bobas.forEach(function(boba){ %>
+      <div class = "col-md-3 col-sm-6">
+        <div id="user_entry" class="thumbnail">
+          <img src = " <%= boba.image %>">
+          <div class="caption">
+            <h4><%= boba.name %></h4>
+          </div>
+          <p>
+            <a href="/bobas/<%= boba._id%>" class="btn btn-primary">More Info</a>
+          </p>
+        </div>
+      </div>
+    <% });%>
+  </div>
+</div>
+
+<% include ../partials/footer %>
