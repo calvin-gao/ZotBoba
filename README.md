@@ -17,11 +17,11 @@
 * express-session
 * connect-flash
 
-## Authentication:
+## Authentication
 
 * User login with username and password
 
-## Authorization:
+## Authorization
 
 * One cannot manage posts and view user profile without being authenticated
 
