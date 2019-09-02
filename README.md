@@ -7,6 +7,8 @@
 ### Front-end
 * ejs
 * bootstrap
+* google-fonts
+
 ### Back-end
 * mongoDB
 * mongoose
