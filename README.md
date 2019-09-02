@@ -1,5 +1,5 @@
 # ZotBoba
- A place for people to post ratings of drinks near UCI
+ A Blog website for people to post ratings of drinks
 
 ## What I have Learned
 
