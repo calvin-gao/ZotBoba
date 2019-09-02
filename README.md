@@ -27,6 +27,8 @@
 
 * One cannot edit or delete posts and comments created by other users
 
+## Features
+
 * Manage user account with basic functionalities:
 
 * Flash messages responding to users' interaction with the app
