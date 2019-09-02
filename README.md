@@ -1,9 +1,21 @@
 # ZotBoba
  A Blog website for people to post ratings of drinks
 
-## What I have Learned
+## What I have Learned From this project
 
 * RESTful Routing
+### Front-end
+* ejs
+* bootstrap
+### Back-end
+* mongoDB
+* mongoose
+* express
+* passport
+* passport-local
+* method-override
+* express-session
+* connect-flash
 
 ## Authentication:
 
