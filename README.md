@@ -1,5 +1,5 @@
 # ZotBoba
- A Blog website for people to post ratings of drinks
+ A Blog website for people to post ratings of drinks and comment on other people's post.
 
 ## What I have Learned From this project
 
